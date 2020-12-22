@@ -60,7 +60,8 @@ const rewriteNumberPhone = mainArr => {
         mainArr[i].cell = mainArr[i].phone;
         mainArr[i].phone = '(225)-181-9520';
 
-        console.log(`Phone: ${mainArr[i].phone}
+        console.log(`
+        Phone: ${mainArr[i].phone}
         Cell: ${mainArr[i].cell}
         Personal: ${mainArr[i].personal}
         `);
